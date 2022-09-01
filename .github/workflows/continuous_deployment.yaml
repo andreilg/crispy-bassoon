@@ -16,5 +16,5 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3.14.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: 'pubspec.yaml'
-          skip-git-pull: "true"
+          version-file: pubspec.yaml
+          skip-git-pull: true
