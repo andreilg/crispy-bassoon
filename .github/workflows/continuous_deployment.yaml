@@ -1,0 +1,20 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  first:
+    name: Continuous Deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.0.2
+
+      - name: Create changelog
+        uses: TriPSs/conventional-changelog-action@v3.14.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: 'pubspec.yaml'
+          skip-git-pull: "true"
