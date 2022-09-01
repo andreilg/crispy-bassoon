@@ -1,0 +1,24 @@
+name: Semantic Pull Request
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+jobs:
+  first:
+    name: Semantic Pull Request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify title
+        uses: amannn/action-semantic-pull-request@v4.5.0
+        with:
+          disallowScopes: |
+            release
+          ignoreLabels: |
+            bot
+            ignore-semantic-pull-request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
