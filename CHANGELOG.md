@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/andreilg/crispy-bassoon/compare/v0.2.1...v0.3.0) (2022-09-02)
+
+
+### Features
+
+* test ([095f318](https://github.com/andreilg/crispy-bassoon/commit/095f318256986b3fd7b7ec1de2f1373b6186a58a))
+
+
+
 ## [0.2.1](https://github.com/andreilg/crispy-bassoon/compare/v0.2.0...v0.2.1) (2022-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * fingers blue ([57536ab](https://github.com/andreilg/crispy-bassoon/commit/57536ab243f56306cdb9ede31feeb134be07df47))
-
-
-
-## [0.0.6](https://github.com/andreilg/crispy-bassoon/compare/v0.0.5...v0.0.6) (2022-09-02)
-
-
-### Bug Fixes
-
-* depth ([59da533](https://github.com/andreilg/crispy-bassoon/commit/59da533175b9ed5a9320f635409391177b0808c7))
 
 
 
