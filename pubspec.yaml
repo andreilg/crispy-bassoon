@@ -1,6 +1,6 @@
 name: crispy_bassoon
 description: A starting point for Dart libraries or applications.
-version: 2.0.0
+version: 3.0.0
 repository: https://github.com/andreilg/crispy_bassoon
 
 environment:
