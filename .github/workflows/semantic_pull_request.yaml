@@ -16,8 +16,19 @@ jobs:
         uses: amannn/action-semantic-pull-request@v4.5.0
         with:
           types: |
-            fix
-            feat
+            build # ignore
+            chore/release # ignore ???
+            deprecate # minor (must add feature with it); Deprecated
+            devops # ignore
+            documentation # ignore
+            feature # minor; Added
+            fix # patch; Fixed
+            performance # patch; Performance
+            refactor # ignore
+            remove # major; Removed
+            security # patch; Security
+            style # ignore
+            testing # ignore
           disallowScopes: |
             release
           subjectPattern: ^[^A-Z].*[^.]$
