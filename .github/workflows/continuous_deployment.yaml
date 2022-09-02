@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3.0.2
+        with:
+          fetch-depth: 0
 
       - name: Bump version, tag commit, and generate changelog
         uses: TriPSs/conventional-changelog-action@v3.14.1
