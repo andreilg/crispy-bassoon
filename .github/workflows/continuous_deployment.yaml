@@ -19,6 +19,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3.14.1
         with:
           github-token: ${{ secrets.ACTION_TOKEN }}
+          preset: conventionalcommits
           version-file: pubspec.yaml
           skip-git-pull: true
           fallback-version: 0.0.1
