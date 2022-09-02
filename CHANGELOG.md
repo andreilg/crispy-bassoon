@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/andreilg/crispy-bassoon/compare/v0.4.0...v1.0.0) (2022-09-02)
+
+
+### chore
+
+* aggao ([515fb9b](https://github.com/andreilg/crispy-bassoon/commit/515fb9b95dbf1fb2595774fb10ca6a22403d7fe9))
+
+
+### BREAKING CHANGES
+
+* multi tenancy
+
+
+
 # [0.4.0](https://github.com/andreilg/crispy-bassoon/compare/v0.3.0...v0.4.0) (2022-09-02)
 
 
@@ -31,15 +45,6 @@
 ### Features
 
 * aiamg ([b3c6b7c](https://github.com/andreilg/crispy-bassoon/commit/b3c6b7c1547cd6461cfcd15301408db0d657d8ce))
-
-
-
-## [0.1.1](https://github.com/andreilg/crispy-bassoon/compare/v0.1.0...v0.1.1) (2022-09-02)
-
-
-### Bug Fixes
-
-* asg ([f3fb4e2](https://github.com/andreilg/crispy-bassoon/commit/f3fb4e2281e0e8e26ed692230a84221677912e95))
 
 
 
