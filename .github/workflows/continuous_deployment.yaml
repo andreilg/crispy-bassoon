@@ -19,10 +19,11 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3.14.1
         with:
           github-token: ${{ secrets.ACTION_TOKEN }}
-          preset: conventionalcommits
+          git-message: 'release: {version}'
           version-file: pubspec.yaml
           skip-git-pull: true
           fallback-version: 0.0.1
+          config-file-path: '.github/config/config.js'
 
       - name: Create release
         uses: actions/create-release@v1
