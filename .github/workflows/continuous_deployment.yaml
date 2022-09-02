@@ -15,6 +15,6 @@ jobs:
       - name: Create changelog
         uses: TriPSs/conventional-changelog-action@v3.14.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ACTION_TOKEN }}
           version-file: pubspec.yaml
           skip-git-pull: true
