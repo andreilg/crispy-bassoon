@@ -20,3 +20,4 @@ jobs:
           github-token: ${{ secrets.ACTION_TOKEN }}
           version-file: pubspec.yaml
           skip-git-pull: true
+          fallback-version: 0.0.1
