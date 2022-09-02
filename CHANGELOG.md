@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/andreilg/crispy-bassoon/compare/v1.0.0...v2.0.0) (2022-09-02)
+
+
+* feat!: asgasg ([f3dfce1](https://github.com/andreilg/crispy-bassoon/commit/f3dfce17c0cef0cd3db4e70b423ba4e62e4355c5))
+
+
+### BREAKING CHANGES
+
+* test
+
+
+
 # [1.0.0](https://github.com/andreilg/crispy-bassoon/compare/v0.4.0...v1.0.0) (2022-09-02)
 
 
@@ -36,15 +48,6 @@
 ### Bug Fixes
 
 * skrt ([9f7b0e8](https://github.com/andreilg/crispy-bassoon/commit/9f7b0e88969e52d312966a4e5e62db552fbb3832))
-
-
-
-# [0.2.0](https://github.com/andreilg/crispy-bassoon/compare/v0.1.1...v0.2.0) (2022-09-02)
-
-
-### Features
-
-* aiamg ([b3c6b7c](https://github.com/andreilg/crispy-bassoon/commit/b3c6b7c1547cd6461cfcd15301408db0d657d8ce))
 
 
 
