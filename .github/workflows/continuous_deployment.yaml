@@ -20,7 +20,7 @@ jobs:
         with:
           github_token: ${{ secrets.ACTION_TOKEN }}
           default_bump: false
-          custom_release_rules: deprecate:minor:Deprecated,feature:minor:Added,fix:patch:Fixed,performance:patch:Performance,remove:major:Removed,security:patch:Security
+          custom_release_rules: deprecate:minor:Deprecated,feat:minor:Added,fix:patch:Fixed,performance:patch:Performance,remove:major:Removed,security:patch:Security
           
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
