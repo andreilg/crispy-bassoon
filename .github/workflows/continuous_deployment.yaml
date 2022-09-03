@@ -30,6 +30,7 @@ jobs:
           
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
+        if: ${{ steps.tag_version.outputs.new_tag != 'undefined' }}
         with:
           token: ${{ secrets.ACTION_TOKEN }}
           tag: ${{ steps.tag_version.outputs.new_tag }}
