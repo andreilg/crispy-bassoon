@@ -22,11 +22,12 @@ jobs:
           default_bump: false
           custom_release_rules: deprecate:minor:Deprecated,feat:minor:Added,fix:patch:Fixed,performance:patch:Performance,remove:major:Removed,security:patch:Security
           
-      - name: Create a GitHub release
-        uses: ncipollo/release-action@v1
+      - name: Create release
+        uses: actions/create-release@v1
         if: ${{ steps.tag_version.outputs.new_tag != null }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
         with:
-          token: ${{ secrets.ACTION_TOKEN }}
-          tag: ${{ steps.tag_version.outputs.new_tag }}
-          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          tag_name: ${{ steps.tag_version.outputs.new_tag }}
+          release_name: ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
