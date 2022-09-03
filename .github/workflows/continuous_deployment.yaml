@@ -14,23 +14,25 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Bump version, tag commit, and create changelog
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.14.1
+      - name: Bump version and tag commit
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.0
         with:
           github-token: ${{ secrets.ACTION_TOKEN }}
-          git-message: 'release: {version}'
-          version-file: pubspec.yaml
-          skip-git-pull: true
-          fallback-version: 0.0.1
-          config-file-path: '.github/config/config.js'
-
+          default_bump: false
+          custom_release_rules: >-
+            deprecate:minor:Deprecated,
+            feature:minor:Added,
+            fix:patch:Fixed,
+            performance:patch:Performance,
+            remove:major:Removed,
+            security:patch:Security
+          
       - name: Create release
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
         with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
