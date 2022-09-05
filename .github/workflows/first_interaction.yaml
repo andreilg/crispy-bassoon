@@ -1,0 +1,9 @@
+name: First Interacton
+
+on:
+  issue:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+- name: First interaction
+  uses: actions/first-interaction@v1.1.0
