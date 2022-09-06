@@ -19,14 +19,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install conventional-changelog-conventionalcommits
-      
-      - name: Bump version, tag commit, and create changelog
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.14.1
-        with:
-          github-token: ${{ secrets.ACTION_TOKEN }}
-          git-message: 'release: {version}'
-          version-file: pubspec.yaml
-          skip-git-pull: true
-          fallback-version: 0.0.1
 
