@@ -1,5 +1,13 @@
+## <small>4.0.4 (2022-09-06)</small>
+
+* feat: asg ([0546609](https://github.com/andreilg/crispy-bassoon/commit/0546609))
+* build: ag ([ef56229](https://github.com/andreilg/crispy-bassoon/commit/ef56229))
+
+
+
 ## <small>4.0.3 (2022-09-06)</small>
 
+* release: v4.0.3 [skip ci] ([55e22a2](https://github.com/andreilg/crispy-bassoon/commit/55e22a2))
 * feat: as ([d7b4d8a](https://github.com/andreilg/crispy-bassoon/commit/d7b4d8a))
 * feat: test2 ([fe8914f](https://github.com/andreilg/crispy-bassoon/commit/fe8914f))
 
@@ -30,12 +38,6 @@
 * remove: test ([4d7d852](https://github.com/andreilg/crispy-bassoon/commit/4d7d852))
 * Create CODEOWNERS ([b43919e](https://github.com/andreilg/crispy-bassoon/commit/b43919e))
 * Update CODEOWNERS ([414ce9d](https://github.com/andreilg/crispy-bassoon/commit/414ce9d))
-
-
-
-## <small>4.5.1 (2022-09-03)</small>
-
-* fix: asg ([6b453d5](https://github.com/andreilg/crispy-bassoon/commit/6b453d5))
 
 
 
