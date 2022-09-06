@@ -1,5 +1,13 @@
+## <small>4.0.5 (2022-09-06)</small>
+
+* Rename config.json to config.js ([36615e5](https://github.com/andreilg/crispy-bassoon/commit/36615e5))
+* Update config.json ([745bcc3](https://github.com/andreilg/crispy-bassoon/commit/745bcc3))
+
+
+
 ## <small>4.0.4 (2022-09-06)</small>
 
+* release: v4.0.4 [skip ci] ([6b75e71](https://github.com/andreilg/crispy-bassoon/commit/6b75e71))
 * feat: asg ([0546609](https://github.com/andreilg/crispy-bassoon/commit/0546609))
 * build: ag ([ef56229](https://github.com/andreilg/crispy-bassoon/commit/ef56229))
 
@@ -30,14 +38,6 @@
 ## <small>5.0.1 (2022-09-03)</small>
 
 * perf: test ([62733eb](https://github.com/andreilg/crispy-bassoon/commit/62733eb))
-
-
-
-## 5.0.0 (2022-09-03)
-
-* remove: test ([4d7d852](https://github.com/andreilg/crispy-bassoon/commit/4d7d852))
-* Create CODEOWNERS ([b43919e](https://github.com/andreilg/crispy-bassoon/commit/b43919e))
-* Update CODEOWNERS ([414ce9d](https://github.com/andreilg/crispy-bassoon/commit/414ce9d))
 
 
 
