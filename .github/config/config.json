@@ -3,20 +3,14 @@
         "preset": {
             "name": "conventionalchangelog",
             "types": [
-                    { type: 'feat', section: 'Features' },
-                    { type: 'fix', section: 'Bug Fixes' },
-                    { type: 'perf', section: 'Performance' },
-                    { type: 'revert', section: 'Reverts' },
-                    { type: 'build', section: 'Build System' },
-                    { type: 'ci', section: 'Continuous Integration' },
-                    { type: 'refactor', section: 'Code Refactoring' },
-                    { type: 'chore', section: 'Chores' },
-                    { type: 'docs', section: 'Documentation' },
-                    { type: 'style', section: 'Styles' },
-                    { type: 'test', section: 'Tests' },
-                    { type: 'wip', section: 'WIP', hidden: true },
-                    { type: 'hide', section: 'Hidden', hidden: true },
-                    { type: 'release', section: 'Releases', hidden: true },
+                {"type": "feat", "section": "Features 2"},
+                {"type": "fix", "section": "Bug Fixes 2"},
+                {"type": "chore", "hidden": true},
+                {"type": "docs", "hidden": true},
+                {"type": "style", "hidden": true},
+                {"type": "refactor", "hidden": true},
+                {"type": "perf", "hidden": true},
+                {"type": "test", "hidden": true}
                 ]
         }
     }
