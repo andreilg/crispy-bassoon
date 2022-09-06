@@ -1,55 +1,39 @@
-## <small>4.0.1 (2022-09-02)</small>
+## <small>4.0.2 (2022-09-06)</small>
 
-* Update continuous_deployment.yaml ([8c00738](https://github.com/andreilg/crispy-bassoon/commit/8c00738))
-* Update semantic_pull_request.yaml ([2e14e25](https://github.com/andreilg/crispy-bassoon/commit/2e14e25))
-* Update semantic_pull_request.yaml ([167caba](https://github.com/andreilg/crispy-bassoon/commit/167caba))
-* Update semantic_pull_request.yaml ([c61a840](https://github.com/andreilg/crispy-bassoon/commit/c61a840))
-* Update semantic_pull_request.yaml ([b9e4730](https://github.com/andreilg/crispy-bassoon/commit/b9e4730))
-* Update semantic_pull_request.yaml ([3364ee3](https://github.com/andreilg/crispy-bassoon/commit/3364ee3))
-* Update semantic_pull_request.yaml ([a40767f](https://github.com/andreilg/crispy-bassoon/commit/a40767f))
-* Update semantic_pull_request.yaml ([1717d30](https://github.com/andreilg/crispy-bassoon/commit/1717d30))
-
-
-
-## 4.0.0 (2022-09-02)
-
-* chore(release): v4.0.0 [skip ci] ([882bc96](https://github.com/andreilg/crispy-bassoon/commit/882bc96))
-* feat!: subject ([ff97093](https://github.com/andreilg/crispy-bassoon/commit/ff97093))
-
-
-### BREAKING CHANGE
-
-* long description
-
-
-## 3.0.0 (2022-09-02)
-
-* chore(release): v3.0.0 [skip ci] ([18e36dd](https://github.com/andreilg/crispy-bassoon/commit/18e36dd))
-* fix!: test ([2160a9e](https://github.com/andreilg/crispy-bassoon/commit/2160a9e))
-* Update continuous_deployment.yaml ([8bf48dc](https://github.com/andreilg/crispy-bassoon/commit/8bf48dc))
+* Create first_interaction.yaml ([33ca6f4](https://github.com/andreilg/crispy-bassoon/commit/33ca6f4))
+* Rename config.js to config.json ([c6b74a0](https://github.com/andreilg/crispy-bassoon/commit/c6b74a0))
+* Update config.js ([5423bf1](https://github.com/andreilg/crispy-bassoon/commit/5423bf1))
+* Update config.js ([a59f7a3](https://github.com/andreilg/crispy-bassoon/commit/a59f7a3))
+* Update continuous_integration.yaml ([30da689](https://github.com/andreilg/crispy-bassoon/commit/30da689))
+* Update pubspec.yaml ([c01b063](https://github.com/andreilg/crispy-bassoon/commit/c01b063))
+* feat: test ([908feb6](https://github.com/andreilg/crispy-bassoon/commit/908feb6))
+* feat: test ([27b6895](https://github.com/andreilg/crispy-bassoon/commit/27b6895))
 
 
 
-## 2.0.0 (2022-09-02)
+## <small>5.0.1 (2022-09-03)</small>
 
-* chore(release): v2.0.0 [skip ci] ([e4db228](https://github.com/andreilg/crispy-bassoon/commit/e4db228))
-* feat!: asgasg ([f3dfce1](https://github.com/andreilg/crispy-bassoon/commit/f3dfce1))
-
-
-### BREAKING CHANGE
-
-* test
+* perf: test ([62733eb](https://github.com/andreilg/crispy-bassoon/commit/62733eb))
 
 
-## 1.0.0 (2022-09-02)
 
-* chore: aggao ([515fb9b](https://github.com/andreilg/crispy-bassoon/commit/515fb9b))
-* chore(release): v1.0.0 [skip ci] ([4b394e4](https://github.com/andreilg/crispy-bassoon/commit/4b394e4))
-* feat!: ag ([3d851ea](https://github.com/andreilg/crispy-bassoon/commit/3d851ea))
+## 5.0.0 (2022-09-03)
+
+* remove: test ([4d7d852](https://github.com/andreilg/crispy-bassoon/commit/4d7d852))
+* Create CODEOWNERS ([b43919e](https://github.com/andreilg/crispy-bassoon/commit/b43919e))
+* Update CODEOWNERS ([414ce9d](https://github.com/andreilg/crispy-bassoon/commit/414ce9d))
 
 
-### BREAKING CHANGE
 
-* multi tenancy
+## <small>4.5.1 (2022-09-03)</small>
+
+* fix: asg ([6b453d5](https://github.com/andreilg/crispy-bassoon/commit/6b453d5))
+
+
+
+## 4.5.0 (2022-09-03)
+
+* feat: asign ([d5f7738](https://github.com/andreilg/crispy-bassoon/commit/d5f7738))
+
 
 
